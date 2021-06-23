@@ -80,7 +80,7 @@ main > i {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: sticky;
+  position:sticky;
   top: 0;
 }
 
@@ -331,6 +331,7 @@ main > i {
 .testimonial-card img {
   border-radius: 1rem;
   margin-right: 1rem;
+  width: 150px;
 }
 
 .testimonial-card p {
