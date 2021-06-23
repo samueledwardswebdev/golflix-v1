@@ -35,7 +35,6 @@ img {
 
 main {
   background: linear-gradient(var(--primary-blue), #11131ce7);
-  position: relative;
 }
 
 main > i {
@@ -147,19 +146,18 @@ main > i {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative;
 }
 
 .showcase-container h1 {
   color: #eee;
   font-size: 2.5rem;
   letter-spacing: 1.5px;
+  margin-bottom: 2rem;
 }
 
 .more-info {
   color: #eee;
   text-align: center;
-  position: absolute;
   bottom: 1rem;
   animation: rock 2s infinite;
 }
