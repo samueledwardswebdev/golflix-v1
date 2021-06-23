@@ -1,0 +1,37 @@
+.navbar-menu ul {
+  display: none;
+}
+
+.showcase-container {
+  height: 30vh;
+  text-align: center;
+}
+
+.showcase-container h1 {
+  font-size: 2rem;
+}
+
+.catagories-container {
+  grid-template-columns: repeat(1,1fr);
+}
+
+.catagory-card:hover {
+  transform: none;
+}
+
+.courses-container {
+  grid-template-columns: repeat(2,1fr);
+}
+
+.course {
+  height: 100%;
+  padding: 0.5rem;
+}
+
+.testimonials-container {
+  grid-template-columns: repeat(1,1fr);
+}
+
+.footer-container {
+  grid-template-columns: repeat(2,1fr);
+}
