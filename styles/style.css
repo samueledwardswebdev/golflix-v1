@@ -82,6 +82,7 @@ main > i {
   align-items: center;
   position:sticky;
   top: 0;
+  z-index: 1;
 }
 
 .navbar-container {
@@ -392,6 +393,7 @@ footer .column p {
   color: green;
   letter-spacing: 1.5px;
   font-size: 1.5rem;
+  text-transform: uppercase;
 }
 
 @keyframes rock{
@@ -399,3 +401,120 @@ footer .column p {
     transform: translateY(0.5rem);
   }
 }
+
+
+/* Courses Pages */
+
+
+
+
+#cp-showcase {
+  background: rgba(0, 0, 0, 0.6);
+  position: relative;
+  padding: 3rem 0;
+}
+
+#cp-showcase::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('../img/c-1.jpg') no-repeat center center/cover;
+  z-index: -1;
+}
+
+.cp-container {
+  display: flex;
+  margin-left: 2.5%;
+  width: 50%;
+  align-items: center;
+}
+
+.cp-container img {
+  width: 100%;
+}
+
+.cp-info {
+  color: #eee;
+  margin-left: 2rem;
+}
+
+.cp-info h2 {
+  margin-bottom: 0.5rem;
+  letter-spacing: 1.6px;
+  font-weight: 400;
+}
+
+.cp-info p {
+  font-weight: 200;
+}
+
+/* Courses Page Booking Section */
+
+#cp-booking {
+  padding: 2rem 0;
+  background: linear-gradient(var(--primary-blue), #11131ce7);
+}
+
+.cp-booking-container {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 1rem;
+  width: 95%;
+  margin: auto;
+  color: #eee;
+}
+
+.cp-bookings-about h1 {
+  margin-bottom: 0.5rem;
+}
+
+.cp-bookings-about p {
+  margin-bottom: 0.5rem;
+}
+
+.cp-booking-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cp-booking-info * {
+  margin-bottom: 0.5rem;
+}
+
+.cp-booking-times {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cp-booking-times * {
+  margin-bottom: 0.5rem;
+}
+
+
+.cp-booking-form input{
+ display: block;
+ width: 100%;
+ margin: 0.5rem 0;
+ padding: 0.2rem 0.5rem;
+}
+
+.cp-bookings-form-c button {
+  width: 30%;
+  height: 2rem;
+  border: none;
+  border-radius: 1rem;
+  background: green;
+  cursor: pointer;
+  color: #eee;
+  margin-top: 0.5rem;
+}
+
+.cp-bookings-form-c button:hover {
+  opacity: 0.9;
+}
+
