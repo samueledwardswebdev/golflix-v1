@@ -405,13 +405,11 @@ footer .column p {
 
 /* Courses Pages */
 
-
-
-
 #cp-showcase {
   background: rgba(0, 0, 0, 0.6);
   position: relative;
   padding: 3rem 0;
+  height: 50vh;
 }
 
 #cp-showcase::before {
@@ -428,17 +426,19 @@ footer .column p {
 .cp-container {
   display: flex;
   margin-left: 2.5%;
-  width: 50%;
+  width: 60%;
   align-items: center;
+  height: 100%;
 }
 
 .cp-container img {
-  width: 100%;
+  width: 40%;
 }
 
 .cp-info {
   color: #eee;
   margin-left: 2rem;
+  width:50%;
 }
 
 .cp-info h2 {
