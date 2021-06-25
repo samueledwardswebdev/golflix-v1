@@ -35,3 +35,42 @@
 .footer-container {
   grid-template-columns: repeat(2,1fr);
 }
+
+/* Courses Pages */
+
+#cp-1-showcase,
+#cp-2-showcase,
+#cp-3-showcase,
+#cp-4-showcase,
+#cp-5-showcase,
+#cp-6-showcase,
+#cp-7-showcase,
+#cp-8-showcase {
+  height: 30vh;
+}
+
+
+.cp-container {
+  width: 95%;
+}
+
+
+.cp-booking-container {
+  grid-template-columns: repeat(1,1fr);
+}
+
+.cp-bookings-about h1{
+  text-align: center;
+}
+
+.cp-bookings-about p {
+  text-align: center;
+}
+
+.cp-bookings-form-c h1 {
+  text-align: center;
+}
+
+.cp-booking-form input {
+  width: 95%;
+}
