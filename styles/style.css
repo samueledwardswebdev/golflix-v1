@@ -53,6 +53,7 @@ main > i {
   padding: 1rem;
   background: green;
   border-radius: 50%;
+  z-index: 1;
 }
 
 /* Utilities */
